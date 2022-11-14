@@ -83,15 +83,15 @@ header {
 #discover-page {
   display: flex;
   justify-content: space-between;
-}
-.disc-first-part {
   background-image: url(img/pexels-oliver-sjöström-1078981\ 1.png);
   background-repeat: no-repeat;
-  width: 730px;
   height: 745px;
+}
+.disc-first-part {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 99px;
 }
 h1 {
   font-family: "Poppins";
@@ -159,4 +159,53 @@ h1 {
 .link-explore {
   text-decoration: none;
   margin-top: 72px;
+}
+.photo-explore {
+  display: flex;
+}
+.number-explore {
+  background-color: #000000;
+}
+.numbers {
+  height: 154px;
+}
+th {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -2px;
+  color: rgba(255, 255, 255, 0.7);
+  padding-right: 78px;
+  padding-top: 44px;
+}
+th:first-child {
+  padding-left: 119px;
+}
+td {
+  font-family: "Bevan";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: -1px;
+  color: #ffffff;
+  padding-right: 78px;
+  padding-bottom: 44px;
+  text-align: center;
+}
+td:first-child {
+  padding-left: 119px;
+}
+
+/*Sponsors*/
+#sponsors {
+  background-color: #b1b1b1;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 38px;
+  padding-left: 199px;
+  padding-right: 199px;
+  padding-bottom: 38px;
 }
