@@ -318,6 +318,7 @@ td:first-child {
 .card-of-place {
   background: rgba(254, 245, 245, 0.09);
   border-radius: 10px;
+  backdrop-filter: blur(8px);
 }
 .card-of-place > img {
   margin: 13px 16px 0px 16px;
@@ -389,4 +390,96 @@ td:first-child {
 }
 .link-paces {
   margin-bottom: 22px;
+}
+.link-see-more > a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px #ffffff solid;
+}
+#explore > .link-see-more {
+  text-align: center;
+  margin-top: 46px;
+  padding-bottom: 32px;
+}
+/*Services*/
+#services {
+  background: #d9d9d9;
+}
+#services > .heading-services {
+  padding-top: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 69px;
+}
+#services > .heading-services > h2 {
+  margin: 0px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 75px;
+  letter-spacing: 0.01em;
+  color: #009490;
+}
+.cards-services {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 107px;
+  padding-left: 108px;
+  padding-right: 109px;
+}
+.text-of-services {
+  background: #171721;
+  border-radius: 4px;
+  width: 207px;
+  height: 114px;
+  position: absolute;
+  top: -20px;
+  left: 37px;
+}
+.text-of-services > h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin: 0;
+  padding-top: 9px;
+  text-align: center;
+}
+.text-of-services > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 127.5%;
+  color: #ffffff;
+  margin: 0;
+  padding-left: 13px;
+  padding-top: 9px;
+}
+.images-services {
+  display: flex;
+  justify-content: space-around;
+}
+.picture-of-services {
+  margin-left: 32px;
+}
+.first-card-services {
+  position: relative;
+}
+.second-card-services {
+  position: relative;
+}
+.third-card-services {
+  position: relative;
 }
