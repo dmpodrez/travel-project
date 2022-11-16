@@ -483,3 +483,198 @@ td:first-child {
 .third-card-services {
   position: relative;
 }
+/*Booking*/
+#booking {
+  display: flex;
+  background: #272727;
+}
+.picture-booking > img {
+  width: 730px;
+  height: 728px;
+}
+.section-form-booking {
+  margin-left: 114px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-form-booking > h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 51px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin-top: 37px;
+  margin-bottom: 72px;
+}
+.section-form-booking > h3 > span {
+  color: #009490;
+}
+.form-booking-border {
+  width: 551px;
+  height: 510px;
+  border: 1px dashed white;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.type-of-trip {
+  margin-top: 43px;
+  margin-bottom: 34px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.type-of-trip > label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.one-way {
+  margin-right: 105px;
+}
+.form-leaving-from {
+  height: 100%;
+  position: relative;
+  margin-bottom: 30px;
+}
+.leaving-from {
+  width: 347px;
+  height: 39px;
+  background: #272727;
+  border: 3px solid #494747;
+  border-radius: 4px;
+  padding: 0px 0px 0px 65px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  color: #8a8a8a;
+}
+.form-leaving-from > img {
+  position: absolute;
+  top: 11px;
+  left: 14px;
+}
+.form-going-to {
+  height: 100%;
+  position: relative;
+  margin-bottom: 30px;
+}
+.going-to {
+  width: 347px;
+  height: 39px;
+  background: #272727;
+  border: 3px solid #494747;
+  border-radius: 4px;
+  padding: 0px 0px 0px 65px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  color: #8a8a8a;
+}
+.form-going-to > img {
+  position: absolute;
+  top: 10px;
+  left: 14px;
+}
+
+.form-depart {
+  height: 100%;
+  position: relative;
+}
+.depart::before {
+  content: "From";
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  width: 118px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color: #272727;
+  pointer-events: none;
+}
+.depart {
+  width: 119px;
+  height: 39px;
+  background: #272727;
+  border: 3px solid #494747;
+  border-radius: 4px;
+  padding: 0px 0px 0px 65px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  color: #8a8a8a;
+}
+.form-depart > img {
+  position: absolute;
+  top: 11px;
+  left: 14px;
+}
+.form-return {
+  height: 100%;
+  position: relative;
+}
+.return {
+  width: 119px;
+  height: 39px;
+  background: #272727;
+  border: 3px solid #494747;
+  border-radius: 4px;
+  padding: 0px 0px 0px 65px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  color: #8a8a8a;
+}
+.form-return > img {
+  position: absolute;
+  top: 11px;
+  left: 14px;
+}
+.info-of-depart {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.numbers-of-passengers {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 47px;
+}
+.search-flights {
+  width: 418px;
+  height: 60px;
+  text-align: center;
+  border: 2px #006360 solid;
+  background: #006360;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.search-flights:hover {
+  background: #272727;
+}

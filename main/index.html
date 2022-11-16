@@ -251,6 +251,76 @@
           </div>
         </div>
       </section>
+      <section id="booking">
+        <div class="picture-booking">
+          <img src="img/Frame 107.png " alt="plane-booking" />
+        </div>
+        <div class="section-form-booking">
+          <h3>Book a <span>Flight</span> With Us Today</h3>
+          <div class="form-booking-border">
+            <div class="form-booking">
+              <div class="type-of-trip">
+                <input
+                  type="radio"
+                  id="one-way"
+                  name="type-of-trip"
+                  value="One way"
+                />
+                <label class="one-way" for="one-way">One way</label>
+                <input
+                  type="radio"
+                  id="round-trip"
+                  name="type-of-trip"
+                  value="Round Trip"
+                />
+                <label for="round-trip">Round Trip</label>
+              </div>
+              <div class="place-of-booking">
+                <div class="form-leaving-from">
+                  <img src="svg/location-tick.svg" alt="location-tick" />
+                  <input
+                    type="text"
+                    class="leaving-from"
+                    placeholder="Leaving from..."
+                  />
+                </div>
+                <div class="form-going-to">
+                  <img src="svg/location-tick.svg" alt="location-tick" />
+                  <input
+                    type="text"
+                    class="going-to"
+                    placeholder="Going to..."
+                  />
+                </div>
+              </div>
+              <div class="info-of-depart">
+                <div class="form-depart">
+                  <img src="svg/note-add.svg" alt="note-add" />
+                  <input
+                    type="date"
+                    class="depart"
+                    placeholder="From"
+                    onchange="this.className=(this.value!=''?'has-value':'')"
+                  />
+                </div>
+                <div class="form-return">
+                  <img src="svg/note-add.svg" alt="note-add" />
+                  <input type="date" class="return" value="" />
+                </div>
+              </div>
+              <div class="numbers-of-passengers">
+                <div class="form-nums-pas">
+                  <img src="svg/profile-2user.svg" alt="profiles" />
+                </div>
+                <div class="form-type-class">
+                  <img src="svg/star.svg" alt="star" />
+                </div>
+              </div>
+              <button class="search-flights">Search Available Flights</button>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
