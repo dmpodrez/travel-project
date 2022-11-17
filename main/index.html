@@ -252,9 +252,7 @@
         </div>
       </section>
       <section id="booking">
-        <div class="picture-booking">
-          <img src="img/Frame 107.png " alt="plane-booking" />
-        </div>
+        <img src="img/Frame 107.png " alt="plane-booking" />
         <div class="section-form-booking">
           <h3>Book a <span>Flight</span> With Us Today</h3>
           <div class="form-booking-border">
@@ -295,29 +293,130 @@
               </div>
               <div class="info-of-depart">
                 <div class="form-depart">
-                  <img src="svg/note-add.svg" alt="note-add" />
-                  <input
-                    type="date"
-                    class="depart"
-                    placeholder="From"
-                    onchange="this.className=(this.value!=''?'has-value':'')"
-                  />
+                  <label class="date">
+                    <input
+                      type="date"
+                      class="depart"
+                      placeholder="From"
+                      onchange="this.className=(this.value!=''?'has-value':'')"
+                    />
+                  </label>
                 </div>
                 <div class="form-return">
-                  <img src="svg/note-add.svg" alt="note-add" />
-                  <input type="date" class="return" value="" />
+                  <label class="date">
+                    <input
+                      type="date"
+                      class="return"
+                      placeholder="From"
+                      onchange="this.className=(this.value!=''?'has-value':'')"
+                    />
+                  </label>
                 </div>
               </div>
               <div class="numbers-of-passengers">
                 <div class="form-nums-pas">
-                  <img src="svg/profile-2user.svg" alt="profiles" />
+                  <select class="select-num-pas" name="num-pas">
+                    <option value="1 passenger">1 passenger</option>
+                    <option value="2 passengers">2 passengers</option>
+                    <option value="3 passengers">3 passengers</option>
+                  </select>
                 </div>
                 <div class="form-type-class">
-                  <img src="svg/star.svg" alt="star" />
+                  <select class="select-type-class" name="type-class">
+                    <option value="1st class">1st class</option>
+                    <option value="2nd class">2nd class</option>
+                    <option value="VIP class">VIP</option>
+                  </select>
                 </div>
               </div>
               <button class="search-flights">Search Available Flights</button>
             </div>
+          </div>
+        </div>
+      </section>
+      <section id="packages">
+        <h2><span>Free</span> Packages</h2>
+        <p>
+          Join our communities to stand a chance to win our free offers to one
+          of these tourist centers.
+        </p>
+        <div class="form-packages">
+          <div class="packages">
+            <div class="card-package">
+              <img src="img/Frame 109.png" alt="Colosseum" />
+              <div class="name-geo-like">
+                <div class="name-card">
+                  <h4>Colosseum</h4>
+                  <div class="geoposition">
+                    <img src="svg/location-tick.svg" alt="locatiion-tick" />
+                    <h5>Rome</h5>
+                  </div>
+                </div>
+                <div class="like">
+                  <div class="heart-circle"><div class="heart"></div></div>
+                  <span>3245</span>
+                </div>
+              </div>
+              <p>
+                The Colosseum is an oval amphitheatre in the centre<br />
+                of the city of Rome, Italy, just east of the Roman<br />
+                Forum. It is the largest ancient amphitheatre ever<br />
+                built, and is still the largest standing amphitheatre in<br />
+                the world today, despite its age.
+              </p>
+              <button class="join-com">Join Community</button>
+            </div>
+            <div class="card-package">
+              <img src="img/Frame 109 (1).png" alt="Grand Canyon" />
+              <div class="name-geo-like">
+                <div class="name-card">
+                  <h4>Grand Canyon</h4>
+                  <div class="geoposition">
+                    <img src="svg/location-tick.svg" alt="locatiion-tick" />
+                    <h5>Arizona</h5>
+                  </div>
+                </div>
+                <div class="like">
+                  <div class="heart-circle"><div class="heart"></div></div>
+                  <span>4321</span>
+                </div>
+              </div>
+              <p>
+                The Grand Canyon in Arizona is a natural formation<br />
+                distinguished by layered bands of red rock, revealing<br />
+                millions of years of geological history in cross-section.<br />
+                Vast in scale, the canyon averages 10 miles across<br />
+                and a mile deep along its 277-mile length
+              </p>
+              <button class="join-com">Join Community</button>
+            </div>
+            <div class="card-package">
+              <img src="img/Frame 109 (2).png" alt="Christ the Redeemer" />
+              <div class="name-geo-like">
+                <div class="name-card">
+                  <h4>Christ the Redeemer</h4>
+                  <div class="geoposition">
+                    <img src="svg/location-tick.svg" alt="locatiion-tick" />
+                    <h5>Rio de Janeiro</h5>
+                  </div>
+                </div>
+                <div class="like">
+                  <div class="heart-circle"><div class="heart"></div></div>
+                  <span>6676</span>
+                </div>
+              </div>
+              <p>
+                Christ the Redeemer is an Art Deco statue of Jesus<br />
+                Christ in Rio de Janeiro, Brazil, created by French<br />
+                sculptor Paul Landowski and built by Brazilian<br />
+                engineer Heitor da Silva Costa, in collaboration with<br />
+                French engineer Albert Caquot.
+              </p>
+              <button class="join-com">Join Community</button>
+            </div>
+          </div>
+          <div class="link-see-more">
+            <a href="">See more</a>
           </div>
         </div>
       </section>
