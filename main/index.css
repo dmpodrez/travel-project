@@ -223,6 +223,7 @@ td:first-child {
   background-repeat: no-repeat;
   padding-left: 99px;
   padding-right: 99px;
+  background-size: cover;
 }
 .ex-head {
   display: flex;
@@ -492,9 +493,10 @@ td:first-child {
 #booking {
   display: flex;
   background: #272727;
+  justify-content: space-between;
 }
 .section-form-booking {
-  margin-left: 114px;
+  margin-right: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
