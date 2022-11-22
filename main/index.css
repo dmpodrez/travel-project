@@ -975,6 +975,7 @@ td:first-child {
 /*Tourist-Expiriences*/
 .slider_item {
   display: flex;
+  justify-content: space-between;
 }
 #tourist-expiriences > h2 {
   font-family: "Poppins";
@@ -992,6 +993,7 @@ td:first-child {
 #tourist-expiriences {
   background: url(img/fon-tourist.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .container-slider {
   padding-left: 100px;
@@ -1018,10 +1020,14 @@ td:first-child {
 .geoposition-live {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-bottom: 53px;
 }
-
-.geoposition-live > h4 {
+.wrap-geo-live {
+  display: flex;
+  align-items: center;
+}
+.wrap-geo-live > h4 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -1081,6 +1087,46 @@ td:first-child {
 }
 .slider > .slick-prev:hover {
   background: url(svg/arrow-left-hover.svg);
+}
+.slider > .slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  position: absolute;
+  top: 85%;
+  right: 2%;
+}
+.slider > .slick-dots > li {
+  list-style: none;
+}
+.slider > .slick-dots > li > button {
+  font-size: 0;
+  width: 89px;
+  height: 5px;
+  padding: 0;
+  border: 0;
+}
+.slider > .slick-dots > .slick-active > button {
+  background-color: #006360;
+}
+.stars-rates {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.stars-rates > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 25px;
+  letter-spacing: 0.01em;
+  margin: 0;
+  color: #ffffff;
+  padding-right: 4px;
+}
+.rates-stars > img {
+  padding-left: 4px;
 }
 /*Contacts*/
 #contacts {
@@ -1222,7 +1268,7 @@ td:first-child {
   justify-content: end;
 }
 .contacts-info {
-  margin-right: 373px;
+  margin-right: 100px;
 }
 .contacts-info > h3 {
   font-family: "Poppins";
