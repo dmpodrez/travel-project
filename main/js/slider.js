@@ -3,3 +3,7 @@ $(document).ready(function () {
     dots: true,
   });
 });
+
+$(document).ready(function () {
+  $(".slider-video").slick({});
+});
